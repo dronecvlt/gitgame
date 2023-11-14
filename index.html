@@ -1,16 +1,23 @@
 <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 <style>
-  body {background-color: var(--tg-theme-bg-color);
-        color: var(--tg-theme-text-color);}
+  body {
+       background-color: var(--tg-theme-bg-color);
+       color: var(--tg-theme-text-color);
+       font-family: 'Inter';
+       text-align: center;}
 </style>
 </head>
 <body>
-<h1>Gitgame Beta</h1>
-
-<a href="/gitgame/GZDoom-Android-0.2.1-release.apk
-">GZDoom for Android</a>
+<p style="font-size: 27px;">Gitgame Store</p>
+<p>Open-source game store</p>
+<a href="/gitgame/GZDoom-Android-0.2.1-release.apk">GZDoom for Android</a>
 </body>
 <script>
   let tg = window.Telegram.WebApp;
+  tg.expand()
 </script>
